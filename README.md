@@ -36,6 +36,9 @@ state variable.
 when the component is mounted: Load the habits data
 from localStorage. Load the unfinishedHabits data
 from localStorage.
+- Update handleEditChange, handleEditSave, and
+handleCompleteClick functions to update the habits
+state and save the updated habits back to localStorage.
 - Create a function (e.g., saveCompletedHabitsToStorage)
 to save completed habits to localStorage. Call this
 function when a habit is completed or achieves its goal.
